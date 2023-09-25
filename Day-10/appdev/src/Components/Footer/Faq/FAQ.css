@@ -1,0 +1,39 @@
+.ran{
+    display: grid;
+    height: 140vh;
+    color: white;
+    background-color: black;
+}
+
+.rectangle88{
+    display: grid;
+    padding: 40px;
+}
+
+.kab h1{
+    font-family: SF-Regular;
+    font-size: 64px;
+    text-align: center;
+}
+
+.faq-container{
+    display: grid;
+    padding: 40px;
+}
+
+.faq-list{
+    display: grid;
+    gap: 30px;
+}
+
+.faq-question{
+    font-family: SF-Regular;
+    font-size: 26px;
+}
+
+.faq-answer{
+    margin-top :20px;
+    font-family: SF-Pro-Light;
+    color: rgb(177, 177, 177);
+    text-align: justify;
+}

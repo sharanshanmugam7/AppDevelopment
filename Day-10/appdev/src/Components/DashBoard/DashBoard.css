@@ -1,0 +1,41 @@
+.dashboard {
+    display: grid;
+    background-color: #000000;
+    min-height: 100vh;
+    grid-template-columns: 1fr 7fr;
+  }
+  
+  .sidebar {
+    color: #ffffff;
+    width: 250px;
+    height: 700px;
+    padding: 20px;
+    display: grid;
+    border: none;
+    border-right: 2px solid #eab843;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+    margin-right: 80px;
+  }
+  
+  .sidebar h2 {
+    font-size: 24px;
+    font-family: SF-Bold;
+  }
+
+  .sidebar-links{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  
+  .tabs{
+    font-size: 18px;
+    font-family: SF-Regular;
+  }
+
+  .tabs:hover{
+    transform: translateY(-5px);
+  }
+
+  .sidebar-links:hover .tabs:not(:hover){
+    filter: blur(1.5px);
+  }
